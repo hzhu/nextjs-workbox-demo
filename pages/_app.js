@@ -21,6 +21,21 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link rel="manifest" href="/manifest.webmanifest"></link>
+        <meta name="theme-color" content="#001f3f"></meta>
+        <link
+          rel="apple-touch-icon"
+          href="https://placehold.co/192x192.png"
+        ></link>
+        <link
+          rel="apple-touch-icon"
+          sizes="512x512"
+          href="https://placehold.co/512x512.png"
+        ></link>
+        <link
+          rel="apple-touch-icon"
+          sizes="192x192"
+          href="https://placehold.co/192x192.png"
+        ></link>
       </Head>
       <Component {...pageProps} />;
     </>
